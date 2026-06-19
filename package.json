@@ -1,0 +1,28 @@
+{
+  "name": "iar2cmake",
+  "version": "0.1.0",
+  "description": "Convert IAR EWARM projects to CMake/GCC",
+  "type": "module",
+  "bin": {
+    "iar2cmake": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "test": "node dist/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Boughzala-ayoub/iar2cmake.git"
+  },
+  "keywords": ["iar", "cmake", "stm32", "embedded", "arm"],
+  "license": "MIT",
+  "dependencies": {
+    "fast-xml-parser": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
