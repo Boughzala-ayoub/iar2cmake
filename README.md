@@ -13,14 +13,14 @@ Generates a `CMakeLists.txt`, `arm-none-eabi.cmake` toolchain file, `CMakePreset
 
 ## Install
 
-```bash
-npm install -g iar2cmake
-```
-
-Or run directly:
+Clone and build locally (requires Node.js ≥ 18):
 
 ```bash
-npx iar2cmake <project.ewp> [options]
+git clone https://github.com/Boughzala-ayoub/iar2cmake.git
+cd iar2cmake
+npm install
+npm run build
+npm link          # puts `iar2cmake` on PATH
 ```
 
 ## Usage
